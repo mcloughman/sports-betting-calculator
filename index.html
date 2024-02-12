@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="break-even-container">
+            <h2>Break Even Percentage Calculator</h2>
+            <label for="be">Enter American Odds (e.g. -175)</label>
+            <input type="text" class="break-even-input" id="be">
+            <span class="output"></span>
+        </div>
+        <div class="hold-container">
+            <h2>Hold Percentage Calculator</h2>
+            <div class="favDiv">
+                <label for="favOdds">Favorite Odds: -----</label>
+                <input type="text" class="fav-odds-input" id="favOdds">
+            </div>
+            <div class="dogDiv">
+                <label for="dogOdds">Underdog Odds: ---</label>
+                <input type="text" class="dog-odds-input" id="dogOdds">
+                <span class="holdOutput"></span>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
