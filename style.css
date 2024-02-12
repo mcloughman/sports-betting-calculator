@@ -5,24 +5,22 @@
 }
 
 .container {
-  padding-top: 2em;
-  height: 100vh;
+  padding-top: 1em;
   text-align: center;
-  margin: 20px auto;
+  margin: 10px auto;
   background-color: whitesmoke;
   min-width: 300px;
   max-width: 800px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
-  gap: 30px;
+  gap: 10px;
   border-radius: 10px;
 }
 
 input {
   margin: 20px 0;
-  height: 40px;
+  height: 20px;
   width: 100px;
 }
 .percent {
@@ -45,4 +43,9 @@ input {
 }
 .hold-container {
   background-color: peachpuff;
+}
+@media (min-width: 340px) {
+  input {
+    height: 30px;
+  }
 }
